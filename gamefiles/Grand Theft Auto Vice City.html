@@ -84,6 +84,12 @@
     </div>
 
     <script>
+        // Press the backtick (`) key to open the emergency link.
+        document.addEventListener("keydown", event => {
+            if (event.code === "Backquote" || event.key === "`") {
+                window.location.href = "https://hikeryan.github.io/polytrack-/0.5.0/index.html";
+            }
+        });
     </script>
 <script>
 alert("Thank Bread from GN-Math for this web-port of gta vice city!");
